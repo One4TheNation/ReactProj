@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import MainPage from "./pages/MainPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 // import PortfolioPage from "./pages/PortfolioPage.jsx";
 // import ContactPage from "./pages/ContactPage.jsx";
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <MainPage />,
+      },
+      {
+        path: "about",
         element: <AboutPage />,
       },
       // {
