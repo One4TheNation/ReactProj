@@ -5,7 +5,7 @@ function AboutPage(props) {
   return (
     <main
       role="main"
-      className="container-fluid text-center vh-100 d-flex flex-column align-items-center justify-content-center"
+      className="container-fluid text-center d-flex flex-column align-items-center justify-content-center"
     >
       <div className="flex items-center justify-center w-screen h-screen py-auto my-auto">
         <h1 className="fw-bold display-4">You Think You Know Me...</h1>
