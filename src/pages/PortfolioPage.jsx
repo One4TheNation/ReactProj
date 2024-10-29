@@ -5,7 +5,7 @@ function PortfolioPage(props) {
   return (
     <main
       role="main"
-      className="container text-center vh-100 d-flex flex-column align-items-center justify-content-center"
+      className="container text-center d-flex flex-column align-items-center justify-content-center"
     >
       <div className="resume-page">
         {/* <div className="jumbotron text-center pb-5">

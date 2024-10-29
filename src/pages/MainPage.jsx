@@ -5,7 +5,7 @@ console.log(logo);
 
 function MainPage(props) {
   return (
-    <main className="container-fluid text-center vh-100 d-flex flex-column align-items-center justify-content-center">
+    <main className="container-fluid text-center d-flex flex-column align-items-center justify-content-center">
       <div className="flex p-4 items-center justify-center w-screen h-screen py-auto my-auto">
         <img
           className="d-block mx-auto mb-4"
