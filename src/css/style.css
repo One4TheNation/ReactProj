@@ -1,3 +1,8 @@
 body {
   max-width: auto;
 }
+
+.tag-image {
+  background-image: url("Love.jpeg;");
+  filter: blur(10px);
+}

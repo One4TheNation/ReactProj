@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/style.css";
 import React from "react";
 
@@ -36,6 +37,7 @@ function AboutPage(props) {
           me to approach projects from a unique perspective, blending aesthetics
           with functionality.
           <br></br>
+          <br></br>
           By fusing technical prowess with a deep understanding of user needs, I
           aim to create impactful solutions that drive business growth and
           enhance user experiences. Whether it's developing cutting-edge
@@ -43,9 +45,9 @@ function AboutPage(props) {
           marketing strategies, I'm committed to delivering exceptional results.
         </p>
         <p className="p-5">
-          <a className="btn btn-primary btn-lg" href="#" role="button">
+          <Link className="btn btn-primary btn-lg" to="/resume" role="button">
             Resume »
-          </a>
+          </Link>
         </p>
       </div>
     </main>

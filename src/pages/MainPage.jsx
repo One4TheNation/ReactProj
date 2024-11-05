@@ -33,6 +33,117 @@ function MainPage(props) {
           </button>
         </div>
       </div>
+
+      <div className="container px-2 py-5" id="featured-3">
+        <h2 className="pb-2 border-bottom">Columns with icons</h2>
+        <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#collection"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#people-circle"></use>
+              </svg>
+            </div>
+          </div>
+          <div className="feature col">
+            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <svg className="bi" width="2em" height="2em">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }

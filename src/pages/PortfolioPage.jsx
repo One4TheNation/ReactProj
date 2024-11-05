@@ -1,6 +1,13 @@
 import "../css/style.css";
 import React from "react";
 
+import background1 from "../image/sincerely-media.jpg";
+import background2 from "../image/doula.jpg";
+import background3 from "../image/matthieu.jpg";
+import background4 from "../image/bryony-elena.jpg";
+import background5 from "../image/painting.jpg";
+import background6 from "../image/Love.jpeg";
+
 function PortfolioPage(props) {
   return (
     <main
@@ -8,31 +15,174 @@ function PortfolioPage(props) {
       className="container text-center d-flex flex-column align-items-center justify-content-center"
     >
       <div className="resume-page">
-        {/* <div className="jumbotron text-center pb-5">
-          <h1 className="fw-bold">Take A Glance To My Work History</h1>
-          <p className=" px-5 fst-italic fw-lighter">
-            The tapestry of one's life is woven with the threads of experience.
-            Each role, each challenge, each triumph contributes to the intricate
-            pattern of one's professional journey.
-          </p>
-        </div> */}
-
-        <h2 className="pb-3 fw-bolder">Logofolio</h2>
+        <h2 className="pb-3 fw-bolder border-bottom">
+          Small Business Branding
+        </h2>
         <div className="container">
-          <div className="row">
-            <div className="col-sm-4">
-              <h4 className="fw-normal">Jade</h4>
-              <p className="fw-light">
-                Starting as a Field Sales Manager, I rapidly advanced to
-                National Retail Sales Manager, leading impactful teams
-                nationwide. Samsung then promoted me to Business to Consumer
-                Manager in 2021, where my market expertise, product knowledge,
-                and innovative strategies drove exceptional results that
-                cemented my reputation as a producer. With a proven track record
-                of success, relentless growth mindset, and creativity.
-              </p>
+          <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div className="col">
+              <div
+                id="tac-img"
+                className=" card card cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style={{
+                  backgroundImage: `url(${background1})`,
+                  backgroundPosition: "left",
+                }}
+              >
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    T.A.C
+                  </h3>
+                  <ul className="d-flex list-unstyled mt-auto mx-auto">
+                    <li className="me-auto">
+                      <img
+                        src="https://github.com/twbs.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        className="rounded-circle border border-white"
+                      ></img>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div className="col-sm-4">
+            <div className="col">
+              <div
+                id="tag-img"
+                className=" card card cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style={{
+                  backgroundImage: `url(${background2})`,
+                  backgroundPosition: "right",
+                }}
+              >
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Rooted Gem
+                  </h3>
+                  <ul className="d-flex list-unstyled mt-auto mx-auto">
+                    <li className="me-auto">
+                      <img
+                        src="https://github.com/twbs.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        className="rounded-circle border border-white"
+                      ></img>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div
+                id="tag-img"
+                className=" card card cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style={{
+                  backgroundImage: `url(${background3})`,
+                  backgroundPosition: "center",
+                }}
+              >
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Rae Createz
+                  </h3>
+                  <ul className="d-flex list-unstyled mt-auto mx-auto">
+                    <li className="me-auto">
+                      <img
+                        src="https://github.com/twbs.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        className="rounded-circle border border-white"
+                      ></img>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div
+                id="tag-img"
+                className=" card card cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style={{
+                  backgroundImage: `url(${background4})`,
+                  backgroundPosition: "center",
+                }}
+              >
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Nikki Nails Knox
+                  </h3>
+                  <ul className="d-flex list-unstyled mt-auto mx-auto">
+                    <li className="me-auto">
+                      <img
+                        src="https://github.com/twbs.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        className="rounded-circle border border-white"
+                      ></img>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div
+                id="paint-img"
+                className=" card card cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style={{
+                  backgroundImage: `url(${background5})`,
+                  backgroundPosition: "center",
+                }}
+              >
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    Junior Brown
+                  </h3>
+                  <ul className="d-flex list-unstyled mt-auto mx-auto">
+                    <li className="me-auto">
+                      <img
+                        src="https://github.com/twbs.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        className="rounded-circle border border-white"
+                      ></img>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div
+                id="tag-img"
+                className=" card card cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style={{
+                  backgroundImage: `url(${background6})`,
+                  backgroundPosition: "right",
+                }}
+              >
+                <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 className="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                    T.A.G
+                  </h3>
+                  <ul className="d-flex list-unstyled mt-auto mx-auto">
+                    <li className="d-flex align-items-center">
+                      <img
+                        src="https://github.com/twbs.png"
+                        alt="Bootstrap"
+                        width="32"
+                        height="32"
+                        className="rounded-circle border border-white"
+                      ></img>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {/* <div className="col-sm-4">
               <h4 className="fw-normal">Mo</h4>
               <p className="fw-light">
                 I spent three fulfilling years at Best Buy, honing my sales
@@ -178,6 +328,7 @@ function PortfolioPage(props) {
                 academic success.
               </p>
             </div>
+          </div> */}
           </div>
         </div>
       </div>

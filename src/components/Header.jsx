@@ -24,9 +24,9 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <a href="/portfolio" className="nav-link  text-white">
+            <Link to="/portfolio" className="nav-link  text-white">
               Portfolio
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <Link to="/resume" className="nav-link text-white">
