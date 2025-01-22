@@ -1,5 +1,16 @@
+import { Container } from "reactstrap";
 import "../css/style.css";
 import logo from "../image/website.png";
+import { Link } from "react-router-dom";
+import {
+  Row,
+  Col,
+  Button,
+  Card,
+  CardBody,
+  CardTitle,
+  CardText,
+} from "reactstrap";
 
 console.log(logo);
 
@@ -14,28 +25,72 @@ function MainPage(props) {
           width="74"
           height="72"
         />
-        <h1 className="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+        <h1 className="display-5 fw-bold text-body-emphasis">
+          Design. Innovate. Empower. In a world of change, I craft the future.
+        </h1>
         <p className="lead mb-4">
-          Quickly design and customize responsive mobile-first sites with
-          Bootstrap, the world’s most popular front-end open source toolkit,
-          featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.
+          With years of experience in graphic design, web development, and
+          UI/UX, I don't just create — I empower. Every project is a chance to
+          shape experiences, elevate brands, and drive impact in a digital
+          world. I blend creativity with strategy to craft solutions that not
+          only stand out but endure. The future is ours to build, and I’m here
+          to lead the way.
         </p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" className="btn btn-primary btn-lg px-4 gap-3">
-            Primary button
-          </button>
           <button
+            src="/AboutPage"
+            target="/AboutPage"
+            type="button"
+            className="btn btn-primary btn-lg px-4 gap-3"
+          >
+            Enter
+          </button>
+          {/* <button
             type="button"
             className="btn btn-outline-secondary btn-lg px-4"
           >
-            Secondary
-          </button>
+            LinkedIn
+          </button> */}
         </div>
       </div>
 
-      <div className="container px-2 py-5" id="featured-3">
-        <h2 className="pb-2 border-bottom">Columns with icons</h2>
+      <Container
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Row container spacing={6} size={3}>
+          <Col md={3}>
+            <Card>
+              <CardTitle tag="h3" style={{ fontWeight: "bold" }}>
+                Aesthetics
+              </CardTitle>
+              <CardText>Love</CardText>
+              <CardBody>Always care for one another</CardBody>
+            </Card>
+          </Col>
+          <Col md={3}>
+            <Card>
+              <CardTitle tag="h3" style={{ fontWeight: "bold" }}>
+                Aesthetics
+              </CardTitle>
+              <CardBody></CardBody>
+            </Card>
+          </Col>
+          <Col md={3}>
+            <Card>
+              <CardTitle tag="h3" style={{ fontWeight: "bold" }}>
+                Aesthetics
+              </CardTitle>
+              <CardBody></CardBody>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      {/* <div className="container px-2 py-5" id="featured-3">
+        <h2 className="pb-2 border-bottom">Application Knowledge</h2>
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div className="feature col">
             <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
@@ -105,7 +160,10 @@ function MainPage(props) {
                 <use xlink:href="#toggles2"></use>
               </svg>
             </div>
-            <div className="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <div
+              cl
+              assName="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
               <svg className="bi" width="2em" height="2em">
                 <use xlink:href="#people-circle"></use>
               </svg>
@@ -143,7 +201,7 @@ function MainPage(props) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
