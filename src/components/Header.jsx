@@ -29,8 +29,8 @@ function Header() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/resume" className="nav-link text-white">
-              Resume
+            <Link to="/projects" className="nav-link text-white">
+              Projects
             </Link>
           </li>
         </ul>

@@ -13,6 +13,7 @@ import {
 } from "reactstrap";
 
 import BootstrapLogo from "../image/png/bootstrap-5-1.png";
+import mongoLogo from "../image/png/mongo.png";
 import htmlLogo from "../image/png/html-1.png";
 import cssLogo from "../image/png/css-3.png";
 import javascriptLogo from "../image/png/javascript-1.png";
@@ -20,11 +21,13 @@ import handlebarsLogo from "../image/png/handlebars-1.png";
 import nodejsLogo from "../image/png/nodejs-3.png";
 import githubLogo from "../image/png/github-icon-1.png";
 import tailwindcssLogo from "../image/png/tailwindcss.png";
-import illustratorLogo from "../image/png/illustrator.png";
-import indesignLogo from "../image/png/indesign.png";
-import photoshopLogo from "../image/png/photoshop.png";
-import xdLogo from "../image/png/xd.png";
-import figmaLogo from "../image/png/figma-icon.png";
+import sqlLogo from "../image/png/sql.png";
+import visualLogo from "../image/png/visual.png";
+import csharpLogo from "../image/png/csharp.png";
+import cplusLogo from "../image/png/cplus.png";
+import ccLogo from "../image/png/cc.png";
+import pythonLogo from "../image/png/python.png";
+import figmaLogo from "../image/png/figma.png";
 
 function AboutPage(props) {
   return (
@@ -32,8 +35,8 @@ function AboutPage(props) {
       <div className="bg-white py-5">
         <Container>
           <Row className="justify-content-center">
-            <Col md={8}>
-              <h1 className="text-4xl font-bold text-gray-900">
+            <Col md={12}>
+              <h1 className="fw-bold display-3 text-gray-900">
                 Learner of Code, Architect of Experience
               </h1>
               <p className="mt-6 text-xl text-gray-500">
@@ -46,9 +49,9 @@ function AboutPage(props) {
                 creator; I am a bridge between form and function, building the
                 future with every keystroke
               </p>
-              <Button color="primary" className="mt-4">
+              {/* <Button color="primary" className="mt-4">
                 Get Started
-              </Button>
+              </Button> */}
             </Col>
           </Row>
         </Container>
@@ -57,19 +60,6 @@ function AboutPage(props) {
       <div className="py-5">
         <Container>
           <Row>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={githubLogo}
-                    width="45"
-                    height="auto"
-                    alt="github logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
             <Col md={2}>
               <Card>
                 <CardBody>
@@ -153,10 +143,10 @@ function AboutPage(props) {
                 <CardBody>
                   <img
                     className="d-block mx-auto mb-4"
-                    src={illustratorLogo}
+                    src={cplusLogo}
                     width="45"
                     height="auto"
-                    alt="illustrator logo"
+                    alt="cplus logo"
                   />
                 </CardBody>
               </Card>
@@ -166,10 +156,10 @@ function AboutPage(props) {
                 <CardBody>
                   <img
                     className="d-block mx-auto mb-4"
-                    src={indesignLogo}
+                    src={csharpLogo}
                     width="45"
                     height="auto"
-                    alt="indesign logo"
+                    alt="csharp logo"
                   />
                 </CardBody>
               </Card>
@@ -179,10 +169,10 @@ function AboutPage(props) {
                 <CardBody>
                   <img
                     className="d-block mx-auto mb-4"
-                    src={photoshopLogo}
+                    src={sqlLogo}
                     width="45"
                     height="auto"
-                    alt="photoshop logo"
+                    alt="sql logo"
                   />
                 </CardBody>
               </Card>
@@ -192,10 +182,10 @@ function AboutPage(props) {
                 <CardBody>
                   <img
                     className="d-block mx-auto mb-4"
-                    src={xdLogo}
+                    src={nodejsLogo}
                     width="45"
                     height="auto"
-                    alt="xd logo"
+                    alt="nodejs logo"
                   />
                 </CardBody>
               </Card>
@@ -205,10 +195,23 @@ function AboutPage(props) {
                 <CardBody>
                   <img
                     className="d-block mx-auto mb-4"
-                    src={figmaLogo}
+                    src={mongoLogo}
                     width="45"
                     height="auto"
-                    alt="figma logo"
+                    alt="mongo logo"
+                  />
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md={2}>
+              <Card>
+                <CardBody>
+                  <img
+                    className="d-block mx-auto mb-4"
+                    src={pythonLogo}
+                    width="45"
+                    height="auto"
+                    alt="python logo"
                   />
                 </CardBody>
               </Card>
@@ -217,11 +220,61 @@ function AboutPage(props) {
         </Container>
       </div>
 
+      <div className="py-5 flex items-center justify-center w-screen h-screen py-auto my-auto">
+        <Container>
+          <h1 className="fw-bold display-5">Experience </h1>
+          <p className="fst-italic fw-lighter">
+            "The greatest discovery of all time is that a person can change his
+            future by merely changing his attitude." - William James
+          </p>
+          <p id="aboutParagraph">
+            I'm a multifaceted professional with a passion for innovation and
+            problem-solving. My diverse background, spanning from corporate
+            leadership to entrepreneurial ventures, equips me with a unique
+            perspective that blends technical expertise with creative thinking.
+            <br></br>
+            <br></br>
+            From managing key accounts for major tech companies to nurturing
+            small businesses and nonprofits through my clothing brand, Eta
+            Fourteen, I've honed my skills in strategy, marketing, and design.
+            I'm particularly excited about the transformative power of emerging
+            technologies, such as AI and Large Language Models (LLMs), and am
+            actively expanding my technical capabilities through a Fullstack
+            Coding program at Vanderbilt University.
+            <br></br>
+            <br></br>
+            My time at Tennessee State University, where I earned a degree in
+            Studio Art with a focus on Graphic Design, provided me with a strong
+            foundation in visual communication and creative problem-solving.
+            This artistic background, combined with my growing technical skills,
+            allows me to approach projects from a unique perspective, blending
+            aesthetics with functionality.
+            <br></br>
+            <br></br>
+            By fusing technical prowess with a deep understanding of user needs,
+            I aim to create impactful solutions that drive business growth and
+            enhance user experiences. Whether it's developing cutting-edge
+            software, designing intuitive user interfaces, or crafting
+            compelling marketing strategies, I'm committed to delivering
+            exceptional results.
+          </p>
+          <p>
+            <Link
+              to="/projects"
+              className="btn btn-primary btn-lg"
+              role="button"
+            >
+              Resume »
+            </Link>
+          </p>
+        </Container>
+      </div>
+
       <div className="bg-gray-100 py-5">
         <Container>
           <Row className="justify-content-center">
-            <Col md={8}>
-              <h2 className="text-3xl font-bold text-gray-900">
+            <Col md={12}>
+              <h2 className="fw-bold display-5 text-gray-900">
                 All the info you need - in one place
               </h2>
               <p className="mt-6 text-xl text-gray-500">
@@ -229,13 +282,15 @@ function AboutPage(props) {
                 ratings, and contact details in one place.
               </p>
               <Row className="mt-4">
-                <Col md={6}>
+                <Col md={3}>
                   <Card>
                     <CardBody>
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="/api/placeholder/48/48"
-                        alt="Cody Fisher"
+                        src={githubLogo}
+                        width="35"
+                        height="35"
+                        alt="GitHub Logo"
                       />
                       <CardTitle tag="h3" className="mt-4">
                         Cody Fisher
@@ -244,13 +299,49 @@ function AboutPage(props) {
                     </CardBody>
                   </Card>
                 </Col>
-                <Col md={6}>
+                <Col md={3}>
                   <Card>
                     <CardBody>
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="/api/placeholder/48/48"
-                        alt="John Doe"
+                        src={visualLogo}
+                        width="35"
+                        height="35"
+                        alt="Visual Logo"
+                      />
+                      <CardTitle tag="h3" className="mt-4">
+                        Cody Fisher
+                      </CardTitle>
+                      <CardText>8:22 AM with the team</CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col md={3}>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src={figmaLogo}
+                        width="38"
+                        height="35"
+                        alt="Figma Logo"
+                      />
+                      <CardTitle tag="h3" className="mt-4">
+                        John Doe
+                      </CardTitle>
+                      <CardText>Learn More</CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col md={3}>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src={ccLogo}
+                        width="35"
+                        height="35"
+                        alt="Creative Cloud Logo"
                       />
                       <CardTitle tag="h3" className="mt-4">
                         John Doe
@@ -263,48 +354,6 @@ function AboutPage(props) {
             </Col>
           </Row>
         </Container>
-      </div>
-      <div className="flex items-center justify-center w-screen h-screen py-auto my-auto">
-        <h1 className="fw-bold display-4">You Think You Know Me...</h1>
-        <p className=" px-5 fst-italic fw-lighter">
-          "The greatest discovery of all time is that a person can change his
-          future by merely changing his attitude." - William James
-        </p>
-        <p id="aboutParagraph" className=" px-5">
-          I'm a multifaceted professional with a passion for innovation and
-          problem-solving. My diverse background, spanning from corporate
-          leadership to entrepreneurial ventures, equips me with a unique
-          perspective that blends technical expertise with creative thinking.
-          <br></br>
-          <br></br>
-          From managing key accounts for major tech companies to nurturing small
-          businesses and nonprofits through my clothing brand, Eta Fourteen,
-          I've honed my skills in strategy, marketing, and design. I'm
-          particularly excited about the transformative power of emerging
-          technologies, such as AI and Large Language Models (LLMs), and am
-          actively expanding my technical capabilities through a Fullstack
-          Coding program at Vanderbilt University.
-          <br></br>
-          <br></br>
-          My time at Tennessee State University, where I earned a degree in
-          Studio Art with a focus on Graphic Design, provided me with a strong
-          foundation in visual communication and creative problem-solving. This
-          artistic background, combined with my growing technical skills, allows
-          me to approach projects from a unique perspective, blending aesthetics
-          with functionality.
-          <br></br>
-          <br></br>
-          By fusing technical prowess with a deep understanding of user needs, I
-          aim to create impactful solutions that drive business growth and
-          enhance user experiences. Whether it's developing cutting-edge
-          software, designing intuitive user interfaces, or crafting compelling
-          marketing strategies, I'm committed to delivering exceptional results.
-        </p>
-        <p className="p-5">
-          <Link className="btn btn-primary btn-lg" to="/resume" role="button">
-            Resume »
-          </Link>
-        </p>
       </div>
     </main>
   );

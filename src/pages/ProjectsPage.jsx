@@ -1,7 +1,7 @@
 import "../css/style.css";
 import React from "react";
 
-function ResumePage(props) {
+function ProjectsPage(props) {
   return (
     <main
       role="main"
@@ -77,4 +77,4 @@ function ResumePage(props) {
     </main>
   );
 }
-export default ResumePage;
+export default ProjectsPage;

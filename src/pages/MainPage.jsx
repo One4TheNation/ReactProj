@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
 import "../css/style.css";
-import logo from "../image/website.png";
+import knox from "../image/knox.jpeg";
 import { Link } from "react-router-dom";
 import {
   Row,
@@ -12,18 +12,16 @@ import {
   CardText,
 } from "reactstrap";
 
-console.log(logo);
+console.log(knox);
 
 function MainPage(props) {
   return (
     <main className="container-fluid text-center d-flex flex-column align-items-center justify-content-center">
       <div className="flex p-4 items-center justify-center w-screen h-screen py-auto my-auto">
         <img
-          className="d-block mx-auto mb-4"
-          src={logo}
-          alt="logo"
-          width="74"
-          height="72"
+          className="d-block mx-auto mb-4 container-fluid"
+          src={knox}
+          alt="knox"
         />
         <h1 className="display-5 fw-bold text-body-emphasis">
           Design. Innovate. Empower. In a world of change, I craft the future.
