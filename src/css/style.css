@@ -6,3 +6,7 @@ body {
   background-image: url("Love.jpeg;");
   filter: blur(10px);
 }
+
+.card {
+  border: rgba(0, 0, 0, 0);
+}

@@ -32,14 +32,15 @@ import figmaLogo from "../image/png/figma.png";
 function AboutPage(props) {
   return (
     <main role="main" className="container-fluid  d-flex flex-column">
-      <div className="bg-white py-5">
+      <div className="bg-white pt-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={12}>
-              <h1 className="fw-bold display-3 text-gray-900">
-                Learner of Code, Architect of Experience
+              <h1 className="fw-bold display-4 text-gray-900">
+                Building Brighter Futures with UX, Full-Stack Dev, and Business
+                Growth
               </h1>
-              <p className="mt-6 text-xl text-gray-500">
+              <p className="mt-6 pt-1 text-xl text-gray-500">
                 I have embraced the power of knowledge, learning the languages
                 of code as a warrior embraces his weapons. These tools are not
                 just lines and symbols—they are the very essence of the digital
@@ -57,8 +58,202 @@ function AboutPage(props) {
         </Container>
       </div>
 
+      <div className="py-2 flex items-center justify-center w-screen h-screen py-auto my-auto">
+        <Container>
+          <h1 className="fw-bold display-5">My Story</h1>
+          <p className="fst-italic fw-lighter">
+            "The greatest discovery of all time is that a person can change his
+            future by merely changing his attitude." - William James
+          </p>
+          <p id="aboutParagraph">
+            I’m a creative problem-solver who thrives at the intersection of
+            design, technology, and business. Whether building intuitive
+            applications, designing visually stunning interfaces, or developing
+            strategic solutions, I’m driven by a passion for making complex
+            ideas simple and accessible. With experience ranging from managing
+            tech accounts to launching my own clothing brand, Eta Fourteen, I’ve
+            honed a unique skill set in strategy, design, and marketing. I
+            believe that every line of code and design choice should serve a
+            purpose—whether that’s enhancing the user experience, optimizing
+            processes, or delivering products that people love. I’m always
+            excited by the transformative potential of emerging technologies
+            like AI and LLMs, and I approach every project with a user-first
+            mindset, merging functionality with aesthetics to create solutions
+            that empower people, drive growth, and push the boundaries of what’s
+            possible.
+          </p>
+        </Container>
+      </div>
+
+      <div className="container marketing">
+        <div className="row">
+          <div className="col-lg-4">
+            <svg
+              className="bd-placeholder-img rounded-square"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            </svg>
+            <h2 className="fw-normal">Heading</h2>
+            <p>
+              Some representative placeholder content for the three columns of
+              text below the carousel. This is the first column.
+            </p>
+          </div>
+          <div className="col-lg-4">
+            <svg
+              className="bd-placeholder-img rounded-square"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            </svg>
+            <h2 className="fw-normal text-align-center">Heading</h2>
+            <p>
+              Another exciting bit of representative placeholder content. This
+              time, we've moved on to the second column.
+            </p>
+          </div>
+          <div className="col-lg-4">
+            <svg
+              className="bd-placeholder-img rounded-square"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            </svg>
+            <h2 className="fw-normal">Heading</h2>
+            <p>
+              And lastly this, the third column of representative placeholder
+              content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr className="featurette-divider"></hr>
+
+      <div className="bg-gray-100 py-5">
+        <Container>
+          <Row className="justify-content-center">
+            <Col md={12}>
+              <h2 className="fw-bold display-5 text-gray-900 text-center">
+                All the info you need - in one place
+              </h2>
+              <p className="mt-6 text-xl text-gray-500 text-center">
+                Save yourself time by keeping all the info, CVs, skills,
+                ratings, and contact details in one place.
+              </p>
+              <Row className="mt-4">
+                <Col md={3}>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src={githubLogo}
+                        width="35"
+                        height="35"
+                        alt="GitHub Logo"
+                      />
+                      <CardTitle tag="h3" className="mt-4">
+                        Cody Fisher
+                      </CardTitle>
+                      <CardText>8:22 AM with the team</CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col md={3}>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src={visualLogo}
+                        width="35"
+                        height="35"
+                        alt="Visual Logo"
+                      />
+                      <CardTitle tag="h3" className="mt-4">
+                        Cody Fisher
+                      </CardTitle>
+                      <CardText>8:22 AM with the team</CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col md={3}>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src={figmaLogo}
+                        width="38"
+                        height="35"
+                        alt="Figma Logo"
+                      />
+                      <CardTitle tag="h3" className="mt-4">
+                        John Doe
+                      </CardTitle>
+                      <CardText>Learn More</CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col md={3}>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="h-12 w-12 rounded-full"
+                        src={ccLogo}
+                        width="35"
+                        height="35"
+                        alt="Creative Cloud Logo"
+                      />
+                      <CardTitle tag="h3" className="mt-4">
+                        John Doe
+                      </CardTitle>
+                      <CardText>Learn More</CardText>
+                    </CardBody>
+                  </Card>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <hr className="featurette-divider"></hr>
       <div className="py-5">
         <Container>
+          <h1 className="pb-5 fw-bold text-center display-5">
+            Coding Knowledge
+          </h1>
           <Row>
             <Col md={2}>
               <Card>
@@ -215,142 +410,6 @@ function AboutPage(props) {
                   />
                 </CardBody>
               </Card>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-
-      <div className="py-5 flex items-center justify-center w-screen h-screen py-auto my-auto">
-        <Container>
-          <h1 className="fw-bold display-5">Experience </h1>
-          <p className="fst-italic fw-lighter">
-            "The greatest discovery of all time is that a person can change his
-            future by merely changing his attitude." - William James
-          </p>
-          <p id="aboutParagraph">
-            I'm a multifaceted professional with a passion for innovation and
-            problem-solving. My diverse background, spanning from corporate
-            leadership to entrepreneurial ventures, equips me with a unique
-            perspective that blends technical expertise with creative thinking.
-            <br></br>
-            <br></br>
-            From managing key accounts for major tech companies to nurturing
-            small businesses and nonprofits through my clothing brand, Eta
-            Fourteen, I've honed my skills in strategy, marketing, and design.
-            I'm particularly excited about the transformative power of emerging
-            technologies, such as AI and Large Language Models (LLMs), and am
-            actively expanding my technical capabilities through a Fullstack
-            Coding program at Vanderbilt University.
-            <br></br>
-            <br></br>
-            My time at Tennessee State University, where I earned a degree in
-            Studio Art with a focus on Graphic Design, provided me with a strong
-            foundation in visual communication and creative problem-solving.
-            This artistic background, combined with my growing technical skills,
-            allows me to approach projects from a unique perspective, blending
-            aesthetics with functionality.
-            <br></br>
-            <br></br>
-            By fusing technical prowess with a deep understanding of user needs,
-            I aim to create impactful solutions that drive business growth and
-            enhance user experiences. Whether it's developing cutting-edge
-            software, designing intuitive user interfaces, or crafting
-            compelling marketing strategies, I'm committed to delivering
-            exceptional results.
-          </p>
-          <p>
-            <Link
-              to="/projects"
-              className="btn btn-primary btn-lg"
-              role="button"
-            >
-              Resume »
-            </Link>
-          </p>
-        </Container>
-      </div>
-
-      <div className="bg-gray-100 py-5">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md={12}>
-              <h2 className="fw-bold display-5 text-gray-900">
-                All the info you need - in one place
-              </h2>
-              <p className="mt-6 text-xl text-gray-500">
-                Save yourself time by keeping all the info, CVs, skills,
-                ratings, and contact details in one place.
-              </p>
-              <Row className="mt-4">
-                <Col md={3}>
-                  <Card>
-                    <CardBody>
-                      <img
-                        className="h-12 w-12 rounded-full"
-                        src={githubLogo}
-                        width="35"
-                        height="35"
-                        alt="GitHub Logo"
-                      />
-                      <CardTitle tag="h3" className="mt-4">
-                        Cody Fisher
-                      </CardTitle>
-                      <CardText>8:22 AM with the team</CardText>
-                    </CardBody>
-                  </Card>
-                </Col>
-                <Col md={3}>
-                  <Card>
-                    <CardBody>
-                      <img
-                        className="h-12 w-12 rounded-full"
-                        src={visualLogo}
-                        width="35"
-                        height="35"
-                        alt="Visual Logo"
-                      />
-                      <CardTitle tag="h3" className="mt-4">
-                        Cody Fisher
-                      </CardTitle>
-                      <CardText>8:22 AM with the team</CardText>
-                    </CardBody>
-                  </Card>
-                </Col>
-                <Col md={3}>
-                  <Card>
-                    <CardBody>
-                      <img
-                        className="h-12 w-12 rounded-full"
-                        src={figmaLogo}
-                        width="38"
-                        height="35"
-                        alt="Figma Logo"
-                      />
-                      <CardTitle tag="h3" className="mt-4">
-                        John Doe
-                      </CardTitle>
-                      <CardText>Learn More</CardText>
-                    </CardBody>
-                  </Card>
-                </Col>
-                <Col md={3}>
-                  <Card>
-                    <CardBody>
-                      <img
-                        className="h-12 w-12 rounded-full"
-                        src={ccLogo}
-                        width="35"
-                        height="35"
-                        alt="Creative Cloud Logo"
-                      />
-                      <CardTitle tag="h3" className="mt-4">
-                        John Doe
-                      </CardTitle>
-                      <CardText>Learn More</CardText>
-                    </CardBody>
-                  </Card>
-                </Col>
-              </Row>
             </Col>
           </Row>
         </Container>

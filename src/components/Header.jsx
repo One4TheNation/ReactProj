@@ -12,25 +12,50 @@ function Header() {
           className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white"
         >
           <svg className="bi me-2" width="40" height="32">
-            <use xlink:href="#smile"></use>
+            {/* <use xlink:href="#smile"></use> */}
           </svg>
           <span className="fs-4">Navarre</span>
         </Link>
 
         <ul className="nav nav-pills">
           <li className="nav-item">
-            <Link to="/about" className="nav-link text-white">
+            <Link
+              to="/"
+              className="nav-link link-body-emphasis text-decoration-none text-white"
+            >
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/about"
+              className="nav-link link-body-emphasis text-decoration-none text-white"
+            >
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/portfolio" className="nav-link  text-white">
+            <Link
+              to="/portfolio"
+              className="nav-link link-body-emphasis text-decoration-none text-white"
+            >
               Portfolio
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className="nav-link text-white">
-              Projects
+            <Link
+              to="/project"
+              className="nav-link link-body-emphasis text-decoration-none text-white"
+            >
+              Project
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className="nav-link link-body-emphasis text-decoration-none text-white"
+            >
+              Contact
             </Link>
           </li>
         </ul>
