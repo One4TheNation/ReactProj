@@ -60,11 +60,8 @@ function AboutPage(props) {
 
       <div className="py-2 flex items-center justify-center w-screen h-screen py-auto my-auto">
         <Container>
-          <h1 className="mt-3 fw-bold display-5">My Story</h1>
-          <p className="fst-italic fw-lighter">
-            "The greatest discovery of all time is that a person can change his
-            future by merely changing his attitude." - William James
-          </p>
+          <h1 className="mt-3 fw-bolder display-6">My Story</h1>
+
           <div className="row featurette">
             <div className="col-md-8">
               <p className="lead">
@@ -108,12 +105,12 @@ function AboutPage(props) {
         <Container>
           <Row className="justify-content-center">
             <Col md={12}>
-              <h2 className="fw-bold display-5 text-gray-900 text-center">
-                All the info you need - in one place
+              <h2 className="fw-bold display-6 text-gray-900 text-center">
+                Intercollegiate Education
               </h2>
-              <p className="mt-6 pb-4 text-xl text-gray-500 text-center">
-                Save yourself time by keeping all the info, CVs, skills,
-                ratings, and contact details in one place.
+              <p className="mt-6 pb-4 text-xl text-gray-500 text-center fst-italic fw-lighter">
+                "The greatest discovery of all time is that a person can change
+                his future by merely changing his attitude." - William James
               </p>
               <div className="container marketing">
                 <div className="row text-center">
@@ -170,7 +167,7 @@ function AboutPage(props) {
       <hr className="featurette-divider"></hr>
       <div className="py-5">
         <Container>
-          <h1 className="pb-5 fw-bold text-center display-5">
+          <h1 className="pb-5 fw-bold text-center display-6">
             Software Acumen
           </h1>
           <Row>
