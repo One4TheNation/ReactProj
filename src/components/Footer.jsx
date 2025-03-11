@@ -15,6 +15,12 @@ function Footer() {
           <svg className="bi me-2" width="24" height="24">
             <use xlink:href="#smile"></use>
           </svg>
+          <span className="fs-4 text-body-secondary ">Github</span>
+        </Link>
+        <Link to="https://www.linkedin.com/in/jpnavarre/">
+          <svg className="bi me-2" width="24" height="24">
+            <use xlink:href="#smile"></use>
+          </svg>
           <span className="fs-4 text-body-secondary ">Medium</span>
         </Link>
         <Link to="https://www.linkedin.com/in/jpnavarre/">
