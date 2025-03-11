@@ -114,48 +114,46 @@ function AboutPage(props) {
               </p>
               <div className="container marketing">
                 <div className="row text-center">
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 mx-auto">
                     <img
-                      className="bd-placeholder-img mx-auto rounded-square pb-1"
-                      width="380"
-                      height="100"
+                      className="bd-placeholder-img mx-auto rounded-square px-4 pb-1"
+                      width="275"
+                      height="75"
                       src={tsuLogo}
                       role="img"
                       // aria-label="Placeholder"
                       // preserveAspectRatio="xMidYMid slice"
                       // focusable="false"
                     />
-                    <h3 className="fw-normal pt-3">Bachelors of Science</h3>
-                    <p>
-                      Discipline of Study: Graphic Design & Education of Art
-                    </p>
+                    <h4 className="fw-normal pt-4">Bachelors of Science</h4>
+                    <p>Graphic Design & Art Education</p>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 mx-auto">
                     <img
-                      className="bd-placeholder-img mx-auto rounded-square pb-1"
-                      width="380"
-                      height="110"
+                      className="bd-placeholder-img mx-auto rounded-square px-4 pb-1"
+                      width="280"
+                      height="90"
                       src={vandyLogo}
                       role="img"
                       // aria-label="Placeholder"
                       // preserveAspectRatio="xMidYMid slice"
                       // focusable="false"
                     />
-                    <h3 className="fw-normal pt-2">Certification of Coding</h3>
+                    <h4 className="fw-normal pt-2">Certification of Coding</h4>
                     <p>Full-stack Coding and Development</p>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 mx-auto">
                     <img
-                      className="bd-placeholder-img mx-auto rounded-square pb-1"
-                      width="380"
-                      height="110"
+                      className="bd-placeholder-img mx-auto rounded-square px-4 pb-1"
+                      width="280"
+                      height="90"
                       src={depaulLogo}
                       role="img"
                       // aria-label="Placeholder"
                       // preserveAspectRatio="xMidYMid slice"
                       // focusable="false"
                     />
-                    <h3 className="fw-normal pt-2">Masters of Science</h3>
+                    <h4 className="fw-normal pt-2">Masters of Science</h4>
                     <p>(HCI) Human–computer Interaction</p>
                   </div>
                 </div>
