@@ -15,11 +15,10 @@ function PortfolioPage(props) {
       className="container text-center d-flex flex-column align-items-center justify-content-center"
     >
       <div className="resume-page">
-        <div className="album py-5 bg-body-white">
+        <div className="album py-2 bg-body-white">
           <div className="container">
-            <h2 className="pb-3 fw-bolder border-bottom">
-              Small Business Branding
-            </h2>
+            <h2 className="fw-bolder">Small Business Branding</h2>
+            <hr className="featurette-divider"></hr>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div className="col">
                 <div className="card g-0 border shadow-sm">
@@ -37,7 +36,7 @@ function PortfolioPage(props) {
                   <rect width="100%" height="100%" fill="#55595c"></rect>
                   {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">
                     Thumbnail
-                  </text> */} 
+                  </text> */}
 
                   <div className="card-body">
                     <p className="card-text">
@@ -262,12 +261,13 @@ function PortfolioPage(props) {
                 </div>
               </div>
             </div>
-            <h2 className="pt-5 pb-3 fw-bolder border-bottom">Probono Work</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
+            <h2 className="pt-5 fw-bolder">Probono Work</h2>
+            <hr className="featurette-divider"></hr>
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div className="col">
+                <div className="card shadow-sm">
                   <img
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background1}
@@ -277,36 +277,36 @@ function PortfolioPage(props) {
                     focusable="false"
                   />
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         {/* <button
             type="button"
-            class="btn btn-sm btn-outline-secondary"
+            className="btn btn-sm btn-outline-secondary"
           >
             Edit
           </button> */}
                       </div>
-                      <small class="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <img
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background1}
@@ -316,36 +316,36 @@ function PortfolioPage(props) {
                     focusable="false"
                   />
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         {/* <button
             type="button"
-            class="btn btn-sm btn-outline-secondary"
+            className="btn btn-sm btn-outline-secondary"
           >
             Edit
           </button> */}
                       </div>
-                      <small class="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <img
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background1}
@@ -355,8 +355,8 @@ function PortfolioPage(props) {
                     focusable="false"
                   />
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.

@@ -1,5 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import "../css/footer.css";
+import inLogo from "../image/png/linkedin.png";
+import gitLogo from "../image/png/github.png";
 
 function Footer() {
   const currentPage = useLocation().pathname;
@@ -7,7 +9,14 @@ function Footer() {
   return (
     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-2 border-top">
       <span className="px-5 mb-1 mb-md-0 text-body-secondary">
-        © 2025 Phillip Navarre | Sponsored By Eta 14
+        © 2025 Phillip Navarre |{" "}
+        <Link
+          to="https://etafourteen.webflow.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sponsored By Eta 14
+        </Link>
       </span>
 
       <ul className="nav px-3 justify-content-end list-unstyled d-flex">
@@ -18,12 +27,12 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg
+            <img
               className="me-1 fs-5 text-body-secondary"
-              width="12"
-              height="12"
-            ></svg>
-            Github
+              src={gitLogo}
+              width="32"
+              height="30"
+            />
           </Link>
         </li>
         <li className="nav-item mx-1">
@@ -33,12 +42,12 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg
+            <img
               className="me-1 fs-5 text-body-secondary"
-              width="12"
-              height="12"
-            ></svg>
-            LinkedIn
+              src={inLogo}
+              width="32"
+              height="32"
+            />
           </Link>
         </li>
       </ul>

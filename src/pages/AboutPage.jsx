@@ -17,7 +17,7 @@ import htmlLogo from "../image/png/html-1.png";
 import cssLogo from "../image/png/css-3.png";
 import javascriptLogo from "../image/png/javascript-1.png";
 import nodejsLogo from "../image/png/nodejs-3.png";
-import githubLogo from "../image/png/github-icon-1.png";
+import vscLogo from "../image/png/visual.png";
 import tailwindcssLogo from "../image/png/tailwindcss.png";
 import sqlLogo from "../image/png/sql.png";
 import csharpLogo from "../image/png/csharp.png";
@@ -99,7 +99,7 @@ function AboutPage(props) {
         </Container>
       </div>
 
-      <hr className="featurette-divider"></hr>
+      <hr className="featurette-divider mx-5"></hr>
 
       <div className="bg-gray-100 py-5">
         <Container>
@@ -162,7 +162,7 @@ function AboutPage(props) {
           </Row>
         </Container>
       </div>
-      <hr className="featurette-divider"></hr>
+      <hr className="featurette-divider mx-5"></hr>
       <div className="py-5">
         <Container>
           <h1 className="pb-5 fw-bold text-center display-6">
@@ -174,7 +174,7 @@ function AboutPage(props) {
                 <CardBody>
                   <img
                     className="d-block mx-auto mb-4"
-                    src={githubLogo}
+                    src={vscLogo}
                     width="45"
                     height="auto"
                     alt="bootstrap logo"
