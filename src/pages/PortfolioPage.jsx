@@ -2,10 +2,10 @@ import "../css/style.css";
 import React from "react";
 
 import background1 from "../image/sincerely-media.jpg";
-import background2 from "../image/doula.jpg";
+import background2 from "../image/doula.jpeg";
 import background3 from "../image/matthieu.jpg";
-import background4 from "../image/bryony-elena.jpg";
-import background5 from "../image/painting.jpg";
+import background4 from "../image/crystals.jpeg";
+import background5 from "../image/painting.jpeg";
 import background6 from "../image/Love.jpeg";
 
 function PortfolioPage(props) {
@@ -26,7 +26,7 @@ function PortfolioPage(props) {
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
-                    src={background1}
+                    src={background2}
                     role="img"
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
@@ -37,8 +37,8 @@ function PortfolioPage(props) {
                   {/* <text x="50%" y="50%" fill="#eceeef" dy=".3em">
                     Thumbnail
                   </text> */}
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">Rooted Gem</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -59,25 +59,26 @@ function PortfolioPage(props) {
                           Edit
                         </button> */}
                       </div>
-                      <small className="text-body-secondary">9/22/24</small>
+                      <small className="text-body-secondary">2024</small>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
-                    src={background2}
+                    src={background5}
                     role="img"
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">Junior Brown</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -98,25 +99,26 @@ function PortfolioPage(props) {
                           Edit
                         </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2024</small>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
-                    src={background3}
+                    src={background6}
                     role="img"
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body ">
+                    <h5 className="fw-semibold">T.A.G</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -137,26 +139,26 @@ function PortfolioPage(props) {
                           Edit
                         </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2023</small>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
-                    src={background4}
+                    src={background1}
                     role="img"
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">T.A.C</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -177,25 +179,26 @@ function PortfolioPage(props) {
                           Edit
                         </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2022</small>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
-                    src={background5}
+                    src={background4}
                     role="img"
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">Mystical Essences</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -216,25 +219,26 @@ function PortfolioPage(props) {
                           Edit
                         </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2020</small>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
-                    src={background6}
+                    src={background3}
                     role="img"
                     aria-label="Placeholder: Thumbnail"
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">Racheal Createz</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -255,17 +259,19 @@ function PortfolioPage(props) {
                           Edit
                         </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2019</small>
                     </div>
                   </div>
                 </div>
               </div>
+
+              {/* ----break--- */}
             </div>
             <h2 className="pt-5 fw-bolder">Probono Work</h2>
             <hr className="featurette-divider"></hr>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
@@ -276,8 +282,8 @@ function PortfolioPage(props) {
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">Nikki Nails</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -298,13 +304,14 @@ function PortfolioPage(props) {
             Edit
           </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2024</small>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
@@ -315,8 +322,8 @@ function PortfolioPage(props) {
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">Real Talk</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -337,13 +344,14 @@ function PortfolioPage(props) {
             Edit
           </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2025</small>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div className="col">
-                <div className="card shadow-sm">
+                <div className="card g-0 border shadow-sm">
                   <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
@@ -354,8 +362,8 @@ function PortfolioPage(props) {
                     preserveAspectRatio="xMidYMid slice"
                     focusable="false"
                   />
-
                   <div className="card-body">
+                    <h5 className="fw-semibold">Culture Corner</h5>
                     <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
@@ -376,7 +384,7 @@ function PortfolioPage(props) {
             Edit
           </button> */}
                       </div>
-                      <small className="text-body-secondary">9 mins</small>
+                      <small className="text-body-secondary">2020</small>
                     </div>
                   </div>
                 </div>
@@ -389,3 +397,15 @@ function PortfolioPage(props) {
   );
 }
 export default PortfolioPage;
+
+{
+  /* <div class="col-md-4">
+             <div class="content"> <a href="#">
+                     <div class="content-overlay"></div> <img class="content-image" src="https://i.imgur.com/CS59IJZ.jpg">
+                     <div class="content-details fadeIn-bottom">
+                         <h3 class="content-title">Khumbu Valley Hotel</h3>
+                         <p class="content-text"><i class="fa fa-map-marker"></i> Nepal</p>
+                     </div>
+                 </a> </div>
+         </div> */
+}

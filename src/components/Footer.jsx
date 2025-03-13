@@ -2,6 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import "../css/footer.css";
 import inLogo from "../image/png/linkedin.png";
 import gitLogo from "../image/png/github.png";
+import dribLogo from "../image/png/dribbble.png";
+import beLogo from "../image/png/behance.png";
 
 function Footer() {
   const currentPage = useLocation().pathname;
@@ -32,6 +34,36 @@ function Footer() {
               src={gitLogo}
               width="32"
               height="30"
+            />
+          </Link>
+        </li>
+        <li className="nav-item mx-1">
+          <Link
+            className="link-body-emphasis nav-link p-1 text-decoration-none d-flex align-items-center fs-6"
+            to="https://dribbble.com/One4TheNation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="me-1 fs-5 text-body-secondary"
+              src={dribLogo}
+              width="32"
+              height="32"
+            />
+          </Link>
+        </li>
+        <li className="nav-item mx-1">
+          <Link
+            className="link-body-emphasis nav-link p-1 text-decoration-none d-flex align-items-center fs-6"
+            to="https://www.behance.net/P-Navarre"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="me-1 fs-5 text-body-secondary"
+              src={beLogo}
+              width="32"
+              height="32"
             />
           </Link>
         </li>
