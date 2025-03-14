@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
 import "../css/style.css";
-import knox from "../image/video/knox4K.mp4";
+import knox from "../image/video/nashville.mp4";
 import { Link } from "react-router-dom";
 import {
   Row,
