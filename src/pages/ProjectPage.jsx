@@ -32,15 +32,13 @@ function ProjectPage(props) {
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content.
               </p>
-              <a
+              <button
                 href="#"
-                className="icon-link gap-1 icon-link-hover justify-content-center stretched-link"
+                type="button"
+                className="btn btn-sm btn-outline-secondary"
               >
-                Continue reading
-                <svg className="bi">
-                  <use xlink:href="#chevron-right"></use>
-                </svg>
-              </a>
+                View
+              </button>
             </div>
             <div className="col-auto d-none d-lg-block">
               <svg
@@ -76,15 +74,13 @@ function ProjectPage(props) {
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content.
               </p>
-              <a
+              <button
                 href="#"
-                className="icon-link gap-1 icon-link-hover justify-content-center stretched-link"
+                type="button"
+                className="btn btn-sm btn-outline-secondary"
               >
-                Continue reading
-                <svg className="bi">
-                  <use xlink:href="#chevron-right"></use>
-                </svg>
-              </a>
+                View
+              </button>
             </div>
             <div className="col-auto d-none d-lg-block">
               <svg
@@ -122,15 +118,13 @@ function ProjectPage(props) {
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content.
               </p>
-              <a
+              <button
                 href="#"
-                className="icon-link gap-1 icon-link-hover justify-content-center stretched-link"
+                type="button"
+                className="btn btn-sm btn-outline-secondary"
               >
-                Continue reading
-                <svg className="bi">
-                  <use xlink:href="#chevron-right"></use>
-                </svg>
-              </a>
+                View
+              </button>
             </div>
             <div className="col-auto d-none d-lg-block">
               <svg
@@ -166,15 +160,13 @@ function ProjectPage(props) {
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content.
               </p>
-              <a
+              <button
                 href="#"
-                className="icon-link gap-1 icon-link-hover justify-content-center stretched-link"
+                type="button"
+                className="btn btn-sm btn-outline-secondary"
               >
-                Continue reading
-                <svg className="bi">
-                  <use xlink:href="#chevron-right"></use>
-                </svg>
-              </a>
+                View
+              </button>
             </div>
             <div className="col-auto d-none d-lg-block">
               <svg
@@ -212,15 +204,13 @@ function ProjectPage(props) {
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content.
               </p>
-              <a
+              <button
                 href="#"
-                className="icon-link gap-1 icon-link-hover justify-content-center stretched-link"
+                type="button"
+                className="btn btn-sm btn-outline-secondary"
               >
-                Continue reading
-                <svg className="bi">
-                  <use xlink:href="#chevron-right"></use>
-                </svg>
-              </a>
+                View
+              </button>
             </div>
             <div className="col-auto d-none d-lg-block">
               <svg
@@ -256,15 +246,13 @@ function ProjectPage(props) {
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content.
               </p>
-              <a
+              <button
                 href="#"
-                className="icon-link gap-1 icon-link-hover justify-content-center stretched-link"
+                type="button"
+                className="btn btn-sm btn-outline-secondary"
               >
-                Continue reading
-                <svg className="bi">
-                  <use xlink:href="#chevron-right"></use>
-                </svg>
-              </a>
+                View
+              </button>
             </div>
             <div className="col-auto d-none d-lg-block">
               <svg

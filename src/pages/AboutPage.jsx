@@ -25,7 +25,7 @@ import cplusLogo from "../image/png/cplus.png";
 import ccLogo from "../image/png/cc.png";
 import figmaLogo from "../image/png/figma.png";
 import tsuLogo from "../image/png/tsu.png";
-import vandyLogo from "../image/png/vandy.jpg";
+import vandyLogo from "../image/vandy.jpg";
 import depaulLogo from "../image/png/depaul.png";
 import meImage from "../image/me.jpeg";
 
@@ -37,8 +37,7 @@ function AboutPage(props) {
           <Row className="justify-content-center">
             <Col md={12}>
               <h1 className="fw-bold display-4 text-gray-900">
-                Building Brighter Futures with UX, Full-Stack Dev, and Business
-                Growth
+                Building Brighter Futures with Creative Growth
               </h1>
               <p className="mb-6 pt-1 text-xl text-gray-500">
                 I have embraced the power of knowledge, learning the languages
@@ -130,7 +129,7 @@ function AboutPage(props) {
                   </div>
                   <div className="col-lg-4 mx-auto">
                     <img
-                      className="bd-placeholder-img mx-auto rounded-square px-4 pb-1"
+                      className="bd-placeholder-img mx-auto rounded-square px-48 pb-1"
                       width="280"
                       height="90"
                       src={vandyLogo}
@@ -142,7 +141,7 @@ function AboutPage(props) {
                     <h4 className="fw-normal pt-2">Certification of Coding</h4>
                     <p>Full-stack Coding and Development</p>
                   </div>
-                  <div className="col-lg-4 mx-auto">
+                  {/* <div className="col-lg-4 mx-auto">
                     <img
                       className="bd-placeholder-img mx-auto rounded-square px-4 pb-1"
                       width="280"
@@ -155,7 +154,7 @@ function AboutPage(props) {
                     />
                     <h4 className="fw-normal pt-2">Masters of Science</h4>
                     <p>(HCI) Human–computer Interaction</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Col>

@@ -23,14 +23,61 @@ const router = createBrowserRouter([
         path: "about",
         element: <AboutPage />,
       },
+      // ---------------------
       {
         path: "portfolio",
         element: <PortfolioPage />,
       },
+      // -branding-
+      {
+        path: "portfolio/rg",
+        // element: <RootedGem />
+      },
+      {
+        path: "portfolio/jb",
+        // element: <RootedGem />
+      },
+      {
+        path: "portfolio/tag",
+        // element: <RootedGem />
+      },
+      {
+        path: "portfolio/tac",
+        // element: <RootedGem />
+      },
+      {
+        path: "portfolio/me",
+        // element: <RootedGem />
+      },
+      {
+        path: "portfolio/rc",
+        // element: <RootedGem />
+      },
+      // -probono-
+      {
+        path: "portfolio/rc",
+        // element: <RootedGem />
+      },
+      {
+        path: "portfolio/rc",
+        // element: <RootedGem />
+      },
+      {
+        path: "portfolio/rc",
+        // element: <RootedGem />
+      },
+      // ---------------------
       {
         path: "project",
         element: <ProjectPage />,
       },
+      // -secondary-
+      {
+        path: "project/234",
+        // element: <ProjectPage />,
+        element: <h1>rootedgem</h1>,
+      },
+      // ---------------------
       {
         path: "contact",
         element: <ContactPage />,

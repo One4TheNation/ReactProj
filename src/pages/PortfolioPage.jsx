@@ -7,6 +7,7 @@ import background3 from "../image/matthieu.jpg";
 import background4 from "../image/crystals.jpeg";
 import background5 from "../image/painting.jpeg";
 import background6 from "../image/Love.jpeg";
+import { Outlet } from "react-router-dom";
 
 function PortfolioPage(props) {
   return (
@@ -21,9 +22,10 @@ function PortfolioPage(props) {
             <hr className="featurette-divider"></hr>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div className="col">
-                <div className="card g-0 border shadow-sm">
+                <div className="overflow-hidden card g-0 border shadow-sm">
+                  {" "}
                   <img
-                    className="bd-placeholder-img card-img-top"
+                    className="backgroundpics | bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background2}
@@ -66,9 +68,10 @@ function PortfolioPage(props) {
               </div>
 
               <div className="col">
-                <div className="card g-0 border shadow-sm">
+                <div className="overflow-hidden card g-0 border shadow-sm">
+                  {" "}
                   <img
-                    className="bd-placeholder-img card-img-top"
+                    className="backgroundpics | bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background5}
@@ -106,9 +109,10 @@ function PortfolioPage(props) {
               </div>
 
               <div className="col">
-                <div className="card g-0 border shadow-sm">
+                <div className="overflow-hidden card g-0 border shadow-sm">
+                  {" "}
                   <img
-                    className="bd-placeholder-img card-img-top"
+                    className="backgroundpics | bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background6}
@@ -146,9 +150,10 @@ function PortfolioPage(props) {
               </div>
 
               <div className="col">
-                <div className="card g-0 border shadow-sm">
+                <div className="overflow-hidden card g-0 border shadow-sm">
+                  {" "}
                   <img
-                    className="bd-placeholder-img card-img-top"
+                    className="backgroundpics | bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background1}
@@ -186,9 +191,9 @@ function PortfolioPage(props) {
               </div>
 
               <div className="col">
-                <div className="card g-0 border shadow-sm">
+                <div className="overflow-hidden card g-0 border shadow-sm">
                   <img
-                    className="bd-placeholder-img card-img-top"
+                    className="backgroundpics | bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background4}
@@ -226,54 +231,10 @@ function PortfolioPage(props) {
               </div>
 
               <div className="col">
-                <div className="card g-0 border shadow-sm">
+                <div className="overflow-hidden card g-0 border shadow-sm">
+                  {" "}
                   <img
-                    className="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="225"
-                    src={background3}
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  />
-                  <div className="card-body">
-                    <h5 className="fw-semibold">Racheal Createz</h5>
-                    <p className="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
-                        >
-                          View
-                        </button>
-                        {/* <button
-                          type="button"
-                          className="btn btn-sm btn-outline-secondary"
-                        >
-                          Edit
-                        </button> */}
-                      </div>
-                      <small className="text-body-secondary">2019</small>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* ----break--- */}
-            </div>
-            <h2 className="pt-5 fw-bolder">Probono Work</h2>
-            <hr className="featurette-divider"></hr>
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div className="col">
-                <div className="card g-0 border shadow-sm">
-                  <img
-                    className="bd-placeholder-img card-img-top"
+                    className="backgroundpics | bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     src={background1}
@@ -309,10 +270,52 @@ function PortfolioPage(props) {
                   </div>
                 </div>
               </div>
+            </div>
+
+            {/* <h2 className="pt-5 fw-bolder">Probono Work</h2>
+            <hr className="featurette-divider"></hr>
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div className="col">
+<div className="overflow-hidden card g-0 border shadow-sm">                  <img
+                    className="bd-placeholder-img card-img-top"
+                    width="100%"
+                    height="225"
+                    src={background1}
+                    role="img"
+                    aria-label="Placeholder: Thumbnail"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false"
+                  />
+                  <div className="card-body">
+                    <h5 className="fw-semibold">Nikki Nails</h5>
+                    <p className="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </button>
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          Edit
+                        </button>
+                      </div>
+                      <small className="text-body-secondary">2024</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               <div className="col">
-                <div className="card g-0 border shadow-sm">
-                  <img
+<div className="overflow-hidden card g-0 border shadow-sm">                  <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
@@ -337,12 +340,12 @@ function PortfolioPage(props) {
                         >
                           View
                         </button>
-                        {/* <button
-            type="button"
-            className="btn btn-sm btn-outline-secondary"
-          >
-            Edit
-          </button> */}
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          Edit
+                        </button>
                       </div>
                       <small className="text-body-secondary">2025</small>
                     </div>
@@ -351,8 +354,7 @@ function PortfolioPage(props) {
               </div>
 
               <div className="col">
-                <div className="card g-0 border shadow-sm">
-                  <img
+<div className="overflow-hidden card g-0 border shadow-sm">                  <img
                     className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
@@ -377,19 +379,19 @@ function PortfolioPage(props) {
                         >
                           View
                         </button>
-                        {/* <button
-            type="button"
-            class="btn btn-sm btn-outline-secondary"
-          >
-            Edit
-          </button> */}
+                        <button
+                          type="button"
+                          className="btn btn-sm btn-outline-secondary"
+                        >
+                          Edit
+                        </button>
                       </div>
                       <small className="text-body-secondary">2020</small>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

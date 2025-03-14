@@ -2,11 +2,61 @@ body {
   max-width: auto;
 }
 
-.tag-image {
-  background-image: url("Love.jpeg;");
-  filter: blur(10px);
-}
-
 .card {
   border: rgba(0, 0, 0, 0);
+}
+
+.backgroundpics {
+  opacity: 0.75;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+.fullscreen-video-container {
+  overflow: hidden;
+}
+
+.fullscreen-video-container video {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  filter: blur(4px);
+  opacity: 0.8;
+  transform: scale(1.03); /* Slightly scale up to avoid blur edges showing */
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 767px) {
+  h1.display-4 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1.display-4 {
+    font-size: 2rem;
+  }
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+/* Optional dark overlay to improve text readability */
+.overlay-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
 }

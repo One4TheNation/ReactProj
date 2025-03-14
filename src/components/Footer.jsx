@@ -9,7 +9,7 @@ function Footer() {
   const currentPage = useLocation().pathname;
 
   return (
-    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-2 border-top">
+    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
       <span className="px-5 mb-1 mb-md-0 text-body-secondary">
         © 2025 Phillip Navarre |{" "}
         <Link
@@ -38,7 +38,7 @@ function Footer() {
           </Link>
         </li>
         <li className="nav-item mx-1">
-          <Link
+          {/* <Link
             className="link-body-emphasis nav-link p-1 text-decoration-none d-flex align-items-center fs-6"
             to="https://dribbble.com/One4TheNation"
             target="_blank"
@@ -50,7 +50,7 @@ function Footer() {
               width="32"
               height="32"
             />
-          </Link>
+          </Link> */}
         </li>
         <li className="nav-item mx-1">
           <Link
