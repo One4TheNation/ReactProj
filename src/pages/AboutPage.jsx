@@ -32,7 +32,7 @@ import meImage from "../image/me.jpeg";
 function AboutPage(props) {
   return (
     <main role="main" className="container-fluid  d-flex flex-column">
-      <div className="bg-white pt-5">
+      <div className="bg-white mt-4 mb-4 pt-5 pb-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={12}>
@@ -56,6 +56,8 @@ function AboutPage(props) {
           </Row>
         </Container>
       </div>
+
+      <hr className="divap | featurette-divider mx-5"></hr>
 
       <div className="py-2 flex items-center justify-center w-screen h-screen py-auto my-auto">
         <Container>
@@ -98,7 +100,7 @@ function AboutPage(props) {
         </Container>
       </div>
 
-      <hr className="featurette-divider mx-5"></hr>
+      <hr className="divap | featurette-divider mx-5"></hr>
 
       <div className="bg-gray-100 py-5">
         <Container>
@@ -161,170 +163,174 @@ function AboutPage(props) {
           </Row>
         </Container>
       </div>
-      <hr className="featurette-divider mx-5"></hr>
+      <hr className="divap | featurette-divider mx-5"></hr>
       <div className="py-5">
         <Container>
-          <h1 className="pb-5 fw-bold text-center display-6">
-            Software Acumen
-          </h1>
-          <Row>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={vscLogo}
-                    width="45"
-                    height="auto"
-                    alt="bootstrap logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={ccLogo}
-                    width="45"
-                    height="auto"
-                    alt="tailwindcss logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={figmaLogo}
-                    width="55"
-                    height="auto"
-                    alt="handlebars logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={htmlLogo}
-                    width="45"
-                    height="auto"
-                    alt="html logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={cssLogo}
-                    width="45"
-                    height="auto"
-                    alt="css logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={javascriptLogo}
-                    width="45"
-                    height="auto"
-                    alt="javascript logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={cplusLogo}
-                    width="45"
-                    height="auto"
-                    alt="cplus logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={csharpLogo}
-                    width="45"
-                    height="auto"
-                    alt="csharp logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={sqlLogo}
-                    width="45"
-                    height="auto"
-                    alt="sql logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={nodejsLogo}
-                    width="45"
-                    height="auto"
-                    alt="nodejs logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={BootstrapLogo}
-                    width="55"
-                    height="auto"
-                    alt="mongo logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md={2}>
-              <Card>
-                <CardBody>
-                  <img
-                    className="d-block mx-auto mb-4"
-                    src={tailwindcssLogo}
-                    width="55"
-                    height="auto"
-                    alt="python logo"
-                  />
-                </CardBody>
-              </Card>
-            </Col>
-          </Row>
+          <div className="py-5">
+            <Container>
+              <h1 className="pb-5 fw-bold text-center display-6">
+                Software Acumen
+              </h1>
+              <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-3">
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={vscLogo}
+                        width="45"
+                        height="auto"
+                        alt="bootstrap logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={ccLogo}
+                        width="45"
+                        height="auto"
+                        alt="tailwindcss logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={figmaLogo}
+                        width="55"
+                        height="auto"
+                        alt="handlebars logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={htmlLogo}
+                        width="45"
+                        height="auto"
+                        alt="html logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={cssLogo}
+                        width="45"
+                        height="auto"
+                        alt="css logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={javascriptLogo}
+                        width="45"
+                        height="auto"
+                        alt="javascript logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={cplusLogo}
+                        width="45"
+                        height="auto"
+                        alt="cplus logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={csharpLogo}
+                        width="45"
+                        height="auto"
+                        alt="csharp logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={sqlLogo}
+                        width="45"
+                        height="auto"
+                        alt="sql logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={nodejsLogo}
+                        width="45"
+                        height="auto"
+                        alt="nodejs logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={BootstrapLogo}
+                        width="55"
+                        height="auto"
+                        alt="mongo logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col>
+                  <Card>
+                    <CardBody>
+                      <img
+                        className="d-block mx-auto mb-4"
+                        src={tailwindcssLogo}
+                        width="55"
+                        height="auto"
+                        alt="python logo"
+                      />
+                    </CardBody>
+                  </Card>
+                </Col>
+              </Row>
+            </Container>
+          </div>
         </Container>
       </div>
     </main>

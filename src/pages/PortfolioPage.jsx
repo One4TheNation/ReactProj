@@ -15,10 +15,23 @@ function PortfolioPage(props) {
       role="main"
       className="container text-center d-flex flex-column align-items-center justify-content-center"
     >
+      <div className="position-relative my-5 p-5 text-center text-muted bg-body">
+        {/* <button type="button" className="position-absolute top-0 end-0 p-3 m-3 btn-close bg-secondary bg-opacity-10 rounded-pill" aria-label="Close"></button> */}
+        {/* <svg className="bi mt-5 mb-3" width="48" height="48"><use xlink:href="#check2-circle"></use></svg> */}
+        <h1 className="fw-bolder text-body-emphasis display-5">
+          From Vision to Brand: Your Story, Your Identity
+        </h1>
+        <p className="col-lg-6 mx-auto mb-4">
+          I’ve help many brands achieve their ideas into meaningful identities.
+          For me, branding is more than visuals—it’s about creating a story that
+          connects with people. Through strategy, design, and storytelling, I
+          help bring visions to life in a way that feels authentic and lasting.
+        </p>
+      </div>
       <div className="resume-page">
         <div className="album py-2 bg-body-white">
           <div className="container">
-            <h2 className="fw-bolder">Small Business Branding</h2>
+            <h2 className="fw-semibold">Esteemed Customers</h2>
             <hr className="featurette-divider"></hr>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
               <div className="col">

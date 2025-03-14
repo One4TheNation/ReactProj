@@ -60,3 +60,12 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   z-index: -1;
 }
+
+p {
+  color: var(--bs-secondary);
+}
+
+.divap {
+  margin-left: 7rem !important;
+  margin-right: 7rem !important;
+}
