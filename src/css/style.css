@@ -10,10 +10,22 @@ body {
   opacity: 0.75;
   filter: blur(10px);
   -webkit-filter: blur(10px);
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-.fullscreen-video-container {
-  overflow: hidden;
+.backgroundpics:hover {
+  background-color: black;
+  opacity: 0;
+  /* color: white; Change text color to white for better visibility */
+}
+
+.card:hover .backgroundpics {
+  filter: blur (100); /* This turns the image completely blur */
+  -webkit-filter: blur (100);
+  opacity: 1; /* Full opacity for solid blur */
+  blur: 0; /* Remove blur for solid color */
+  -webkit-filter: blur (100);
 }
 
 .fullscreen-video-container video {

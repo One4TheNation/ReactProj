@@ -35,36 +35,23 @@ const router = createBrowserRouter([
       },
       {
         path: "portfolio/jb",
-        // element: <RootedGem />
+        // element: <junior />
       },
       {
         path: "portfolio/tag",
-        // element: <RootedGem />
+        // element: <tag />
       },
       {
         path: "portfolio/tac",
-        // element: <RootedGem />
+        // element: <trans />
       },
       {
         path: "portfolio/me",
-        // element: <RootedGem />
+        // element: <mystical />
       },
       {
         path: "portfolio/rc",
-        // element: <RootedGem />
-      },
-      // -probono-
-      {
-        path: "portfolio/rc",
-        // element: <RootedGem />
-      },
-      {
-        path: "portfolio/rc",
-        // element: <RootedGem />
-      },
-      {
-        path: "portfolio/rc",
-        // element: <RootedGem />
+        // element: <ray />
       },
       // ---------------------
       {
