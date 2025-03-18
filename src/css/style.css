@@ -35,6 +35,7 @@ body {
   filter: blur(4px);
   opacity: 0.8;
   transform: scale(1.03); /* Slightly scale up to avoid blur edges showing */
+  position: relative;
 }
 
 .text-shadow {

@@ -17,7 +17,7 @@ console.log(knox);
 function MainPage(props) {
   return (
     <Container fluid className="p-0">
-      <div className="fullscreen-video-container position-relative vh-100">
+      <div className="fullscreen-video-container position-relative vh-100 overflow-hidden">
         <video
           autoPlay
           loop
