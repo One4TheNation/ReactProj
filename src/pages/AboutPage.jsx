@@ -82,7 +82,8 @@ function AboutPage(props) {
                 empower people, drive growth, and push the boundaries of what’s
                 possible.
               </p>
-              <p className="lead">Beyond my primary work, I find immense fulfillment in creative expression through printmaking, the meditative rhythm of woodcarving, and the soothing, nature-inspired strokes of painting—channeling the spirit of Bob Ross with every brushstroke.</p>
+              <p className="lead">Beyond my primary work, I find immense fulfillment in creative expression through printmaking, the meditative rhythm of woodcarving, 
+                and the soothing, nature-inspired strokes of painting—channeling the spirit of Bob Ross with every brushstroke.</p>
             </div>
             <div className="col-md-4">
               <img
