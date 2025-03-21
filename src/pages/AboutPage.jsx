@@ -27,7 +27,7 @@ import figmaLogo from "../image/png/figma.png";
 import tsuLogo from "../image/png/tsu.png";
 import vandyLogo from "../image/vandy.jpg";
 import depaulLogo from "../image/png/depaul.png";
-import meImage from "../image/me.jpeg";
+import meImage from "../image/me1.jpeg";
 
 function AboutPage(props) {
   return (
@@ -57,9 +57,9 @@ function AboutPage(props) {
         </Container>
       </div>
 
-      <hr className="divap | featurette-divider mx-5"></hr>
+      <hr className="divap | featurette-divider px-5 mx-5"></hr>
 
-      <div className="py-2 flex items-center justify-center w-screen h-screen py-auto my-auto">
+      <div className="flex items-center justify-center w-screen h-screen py-5 my-auto">
         <Container>
           <h1 className="mt-3 fw-bolder display-6">My Story</h1>
 
@@ -71,8 +71,7 @@ function AboutPage(props) {
                 applications, designing visually stunning interfaces, or
                 developing strategic solutions, I’m driven by a passion for
                 making complex ideas simple and accessible. With experience
-                ranging from managing tech accounts to launching my own clothing
-                brand, Eta Fourteen, I’ve honed a unique skill set in strategy,
+                ranging from managing national tech accounts, I’ve honed a unique skill set in strategy,
                 design, and marketing. I believe that every line of code and
                 design choice should serve a purpose—whether that’s enhancing
                 the user experience, optimizing processes, or delivering
@@ -83,6 +82,7 @@ function AboutPage(props) {
                 empower people, drive growth, and push the boundaries of what’s
                 possible.
               </p>
+              <p className="lead">Beyond my primary work, I find immense fulfillment in creative expression through printmaking, the meditative rhythm of woodcarving, and the soothing, nature-inspired strokes of painting—channeling the spirit of Bob Ross with every brushstroke.</p>
             </div>
             <div className="col-md-4">
               <img
@@ -100,7 +100,7 @@ function AboutPage(props) {
         </Container>
       </div>
 
-      <hr className="divap | featurette-divider mx-5"></hr>
+      <hr className="divap | featurette-divider px-5 mx-5"></hr>
 
       <div className="bg-gray-100 py-5">
         <Container>
@@ -163,8 +163,10 @@ function AboutPage(props) {
           </Row>
         </Container>
       </div>
-      <hr className="divap | featurette-divider mx-5"></hr>
-      <div className="py-5">
+
+      <hr className="divap | featurette-divider px-5 mx-5"></hr>
+
+      <div className="py-auto">
         <Container>
           <div className="py-5">
             <Container>
