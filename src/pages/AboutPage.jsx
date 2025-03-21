@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "../css/style.css";
 import React from "react";
 import {
+  Dropdown,
   Container,
   Row,
   Col,
@@ -71,19 +72,24 @@ function AboutPage(props) {
                 applications, designing visually stunning interfaces, or
                 developing strategic solutions, I’m driven by a passion for
                 making complex ideas simple and accessible. With experience
-                ranging from managing national tech accounts, I’ve honed a unique skill set in strategy,
-                design, and marketing. I believe that every line of code and
-                design choice should serve a purpose—whether that’s enhancing
-                the user experience, optimizing processes, or delivering
-                products that people love. I’m always excited by the
-                transformative potential of emerging technologies like AI and
-                LLMs, and I approach every project with a user-first mindset,
-                merging functionality with aesthetics to create solutions that
-                empower people, drive growth, and push the boundaries of what’s
-                possible.
+                ranging from managing national tech accounts, I’ve honed a
+                unique skill set in strategy, design, and marketing. I believe
+                that every line of code and design choice should serve a
+                purpose—whether that’s enhancing the user experience, optimizing
+                processes, or delivering products that people love. I’m always
+                excited by the transformative potential of emerging technologies
+                like AI and LLMs, and I approach every project with a user-first
+                mindset, merging functionality with aesthetics to create
+                solutions that empower people, drive growth, and push the
+                boundaries of what’s possible.
               </p>
-              <p className="lead">Beyond my primary work, I find immense fulfillment in creative expression through printmaking, the meditative rhythm of woodcarving, 
-                and the soothing, nature-inspired strokes of painting—channeling the spirit of Bob Ross with every brushstroke.</p>
+              <p className="lead">
+                Beyond my primary work, I find immense fulfillment in creative
+                expression through printmaking, the meditative rhythm of
+                woodcarving, and the soothing, nature-inspired strokes of
+                painting—channeling the spirit of Bob Ross with every
+                brushstroke.
+              </p>
             </div>
             <div className="col-md-4">
               <img

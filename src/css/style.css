@@ -79,6 +79,7 @@ p {
 }
 
 .divap {
-  margin-left: 20rem !important;
-  margin-right: 20rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 75%;
 }
