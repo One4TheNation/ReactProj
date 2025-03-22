@@ -10,6 +10,14 @@ import PortfolioPage from "./pages/PortfolioPage.jsx";
 import ProjectPage from "./pages/ProjectPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 
+// --sub_pages--
+import RootedPage from "./pages/FaPage.jsx";
+import JuniorPage from "./pages/FbPage.jsx";
+import TagPage from "./pages/FcPage.jsx";
+import TacPage from "./pages/FdPage.jsx";
+import MePage from "./pages/FePage.jsx";
+import NailPage from "./pages/FgPage.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,27 +39,27 @@ const router = createBrowserRouter([
       // -branding-
       {
         path: "portfolio/rg",
-        // element: <RootedGem />
+        element: <RootedPage />,
       },
       {
         path: "portfolio/jb",
-        // element: <junior />
+        element: <JuniorPage />,
       },
       {
         path: "portfolio/tag",
-        // element: <tag />
+        element: <TagPage />,
       },
       {
         path: "portfolio/tac",
-        // element: <trans />
+        element: <TacPage />,
       },
       {
         path: "portfolio/me",
-        // element: <mystical />
+        element: <MePage />,
       },
       {
-        path: "portfolio/rc",
-        // element: <ray />
+        path: "portfolio/nnk",
+        element: <NailPage />,
       },
       // ---------------------
       {

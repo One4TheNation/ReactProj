@@ -7,7 +7,7 @@ function ContactPage(props) {
       role="main"
       className="container text-center d-flex flex-column align-items-center justify-content-center"
     >
-      <div className="container my-5">
+      <div className="container my-5 pb-5">
         <div className="position-relative p-5 text-center text-muted bg-body border rounded-3">
           {/* <button type="button" className="position-absolute top-0 end-0 p-3 m-3 btn-close bg-secondary bg-opacity-10 rounded-pill" aria-label="Close"></button> */}
           {/* <svg className="bi mt-5 mb-3" width="48" height="48"><use xlink:href="#check2-circle"></use></svg> */}
@@ -35,12 +35,10 @@ function ContactPage(props) {
         </div>
       </div>
 
-      {/* <div className="b-example-divider"></div> */}
-
-      <h1 className="text-body-emphasis fw-bold display-5">
+      <h1 className="text-body-emphasis fw-bold display-6">
         Extra Help & Professional Support
       </h1>
-      <p className="fs-5 col-md-8">
+      <p className="text-xl col-md-8">
         If you're looking to bring your app or website to the next level, ETA
         Fourteen is here to help. There is an expert team of technological
         professionals to create customized, robust web and app solutions
