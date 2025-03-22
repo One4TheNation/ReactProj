@@ -33,7 +33,7 @@ import meImage from "../image/me1.jpeg";
 function AboutPage(props) {
   return (
     <main role="main" className="container-fluid  d-flex flex-column">
-      <div className="bg-white mt-4 mb-4 pt-5 pb-5">
+      <div className="bg-white mt-4 pt-5 pb-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={12}>
@@ -60,28 +60,28 @@ function AboutPage(props) {
 
       <hr className="divap | featurette-divider px-5 mx-5"></hr>
 
-      <div className="flex items-center justify-center w-screen h-screen py-5 my-auto">
+      <div className="d-flex align-items-center justify-content-center w-screen h-screen pt-3 pb-5 my-auto ">
         <Container>
           <h1 className="mt-3 fw-bolder display-6">My Story</h1>
 
           <div className="row featurette">
             <div className="col-md-8">
               <p className="lead">
-                I’m a creative problem-solver who thrives at the intersection of
+                I'm a creative problem-solver who thrives at the intersection of
                 design, technology, and business. Whether building intuitive
                 applications, designing visually stunning interfaces, or
-                developing strategic solutions, I’m driven by a passion for
+                developing strategic solutions, I'm driven by a passion for
                 making complex ideas simple and accessible. With experience
-                ranging from managing national tech accounts, I’ve honed a
+                ranging from managing national tech accounts, I've honed a
                 unique skill set in strategy, design, and marketing. I believe
                 that every line of code and design choice should serve a
-                purpose—whether that’s enhancing the user experience, optimizing
-                processes, or delivering products that people love. I’m always
+                purpose—whether that's enhancing the user experience, optimizing
+                processes, or delivering products that people love. I'm always
                 excited by the transformative potential of emerging technologies
                 like AI and LLMs, and I approach every project with a user-first
                 mindset, merging functionality with aesthetics to create
                 solutions that empower people, drive growth, and push the
-                boundaries of what’s possible.
+                boundaries of what's possible.
               </p>
               <p className="lead">
                 Beyond my primary work, I find immense fulfillment in creative
@@ -91,16 +91,13 @@ function AboutPage(props) {
                 brushstroke.
               </p>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 d-flex justify-content-center align-items-start">
               <img
-                className="bd-placeholder-img bd-placeholder-img-lg mx-auto"
-                width="400"
-                height="400"
+                className="bd-placeholder-img bd-placeholder-img-lg img-fluid"
+                style={{ maxWidth: "100%", height: "auto", maxHeight: "400px" }}
                 src={meImage}
+                alt="Profile photograph"
                 role="img"
-                // aria-label="Placeholder: 500x500"
-                // preserveAspectRatio="xMidYMid slice"
-                // focusable="false"
               />
             </div>
           </div>
@@ -116,7 +113,7 @@ function AboutPage(props) {
               <h2 className="fw-bold display-6 text-gray-900 text-center">
                 Intercollegiate Education
               </h2>
-              <p className="mt-6 pb-4 text-xl text-gray-500 text-center fst-italic fw-lighter">
+              <p className="mt-6 pb-5 text-xl text-gray-500 text-center fst-italic fw-lighter">
                 "The greatest discovery of all time is that a person can change
                 his future by merely changing his attitude." - William James
               </p>

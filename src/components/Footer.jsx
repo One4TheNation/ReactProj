@@ -21,7 +21,7 @@ function Footer() {
         </Link>
       </span>
 
-      <ul className="nav px-3 justify-content-end list-unstyled d-flex">
+      <ul className="nav px-5 justify-content-end list-unstyled d-flex">
         <li className="nav-item mx-1">
           <Link
             className="link-body-emphasis nav-link p-1 text-decoration-none d-flex align-items-center fs-6"
