@@ -82,20 +82,13 @@ function Header() {
               About
             </Link>
           </li>
-          <li className="nav-item">
-            <Link
-              to="/portfolio"
-              className="nav-link link-body-emphasis text-decoration-none text-white"
-            >
-              Portfolio
-            </Link>
-          </li>
+
           <li className="nav-item">
             <Link
               to="/project"
               className="nav-link link-body-emphasis text-decoration-none text-white"
             >
-              Project
+              Projects
             </Link>
           </li>
           <li className="nav-item">
@@ -137,15 +130,6 @@ function Header() {
             <li className="nav-item">
               <Link
                 to="/portfolio"
-                className="nav-link link-body-emphasis text-decoration-none text-white"
-                onClick={() => setIsOpen(false)}
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/project"
                 className="nav-link link-body-emphasis text-decoration-none text-white"
                 onClick={() => setIsOpen(false)}
               >

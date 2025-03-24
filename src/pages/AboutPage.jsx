@@ -1,17 +1,7 @@
-import { Link } from "react-router-dom";
+import { Container } from "reactstrap";
 import "../css/style.css";
 import React from "react";
-import {
-  Dropdown,
-  Container,
-  Row,
-  Col,
-  Button,
-  Card,
-  CardBody,
-  CardTitle,
-  CardText,
-} from "reactstrap";
+import { Row, Col, Card, CardBody } from "reactstrap";
 
 import BootstrapLogo from "../image/png/bootstrap-5-1.png";
 import htmlLogo from "../image/png/html-1.png";
@@ -27,7 +17,7 @@ import ccLogo from "../image/png/cc.png";
 import figmaLogo from "../image/png/figma.png";
 import tsuLogo from "../image/png/tsu.png";
 import vandyLogo from "../image/vandy.jpg";
-import depaulLogo from "../image/png/depaul.png";
+// import depaulLogo from "../image/png/depaul.png";
 import meImage from "../image/me1.jpeg";
 
 function AboutPage(props) {
@@ -40,7 +30,7 @@ function AboutPage(props) {
               <h1 className="fw-bold display-4 text-gray-900">
                 Building Brighter Futures with Creative Growth
               </h1>
-              <p className="mb-6 pt-1 text-xl text-gray-500">
+              <p className="mb-6 pt-1 text-xl text-gray-500 lead">
                 I have embraced the power of knowledge, learning the languages
                 of code as a warrior embraces his weapons. These tools are not
                 just lines and symbols—they are the very essence of the digital
