@@ -6,9 +6,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import MainPage from "./pages/MainPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
-
 import ProjectPage from "./pages/ProjectPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
+//----------------------------------------------
+import SamsungOne from "./pages/SamsungOne.jsx";
+// import SamsungTwo from "./pages/SamsungTwo.jsx";
+// import SamsungThree from "./pages/SamsungThree.jsx";
+// import SamsungFour from "./pages/SamsungFour.jsx";
+//----------------------------------------------
 
 const router = createBrowserRouter([
   {
@@ -28,6 +33,22 @@ const router = createBrowserRouter([
         path: "project",
         element: <ProjectPage />,
       },
+      {
+        path: "project/samsungone",
+        element: <SamsungOne />,
+      },
+      // {
+      //   path: "project/samsung-two",
+      //   element: <SamsungTwo />,
+      // },
+      // {
+      //   path: "project/samsung-three",
+      //   element: <SamsungThree />,
+      // },
+      // {
+      //   path: "project/samsung-four",
+      //   element: <SamsungFour />,
+      // },
       // ---------------------
       {
         path: "contact",

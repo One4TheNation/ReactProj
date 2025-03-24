@@ -56,7 +56,7 @@ function ProjectPage() {
                 href="#"
                 type="button"
                 className="btn btn-sm btn-outline-secondary"
-                onClick={() => handleNavigation("project/college_expansion")}
+                onClick={() => handleNavigation("/project/samsungone")}
               >
                 View
               </button>
