@@ -10,9 +10,9 @@ import ProjectPage from "./pages/ProjectPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 //----------------------------------------------
 import SamsungOne from "./pages/SamsungOne.jsx";
-// import SamsungTwo from "./pages/SamsungTwo.jsx";
-// import SamsungThree from "./pages/SamsungThree.jsx";
-// import SamsungFour from "./pages/SamsungFour.jsx";
+import SamsungTwo from "./pages/SamsungTwo.jsx";
+import SamsungThree from "./pages/SamsungThree.jsx";
+import SamsungFour from "./pages/SamsungFour.jsx";
 //----------------------------------------------
 
 const router = createBrowserRouter([
@@ -37,18 +37,18 @@ const router = createBrowserRouter([
         path: "project/samsungone",
         element: <SamsungOne />,
       },
-      // {
-      //   path: "project/samsung-two",
-      //   element: <SamsungTwo />,
-      // },
-      // {
-      //   path: "project/samsung-three",
-      //   element: <SamsungThree />,
-      // },
-      // {
-      //   path: "project/samsung-four",
-      //   element: <SamsungFour />,
-      // },
+      {
+        path: "project/samsungtwo",
+        element: <SamsungTwo />,
+      },
+      {
+        path: "project/samsungthree",
+        element: <SamsungThree />,
+      },
+      {
+        path: "project/samsungfour",
+        element: <SamsungFour />,
+      },
       // ---------------------
       {
         path: "contact",

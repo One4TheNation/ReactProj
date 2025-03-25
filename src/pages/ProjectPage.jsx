@@ -99,6 +99,7 @@ function ProjectPage() {
                 href="#"
                 type="button"
                 className="btn btn-sm btn-outline-secondary"
+                onClick={() => handleNavigation("/project/samsungtwo")}
               >
                 View
               </button>
@@ -143,6 +144,7 @@ function ProjectPage() {
                 href="#"
                 type="button"
                 className="btn btn-sm btn-outline-secondary"
+                onClick={() => handleNavigation("/project/samsungthree")}
               >
                 View
               </button>
@@ -185,6 +187,7 @@ function ProjectPage() {
                 href="#"
                 type="button"
                 className="btn btn-sm btn-outline-secondary"
+                onClick={() => handleNavigation("/project/samsungfour")}
               >
                 View
               </button>
