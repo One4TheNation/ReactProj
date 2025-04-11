@@ -18,16 +18,16 @@ function SamsungThree() {
             onClick={() => navigate("/project")}
             aria-label="Back to portfolio"
           >
-            <i className="bi bi-x-square-fill xl-icon">
+            <i className="bi bi-x-circle-fill xl-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
                 height="25"
                 fill="currentColor"
-                class="bi bi-arrow-left-square-fill"
+                className="bi bi-x-circle-fill"
                 viewBox="0 0 16 16"
               >
-                <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1" />
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
               </svg>
             </i>
           </button>

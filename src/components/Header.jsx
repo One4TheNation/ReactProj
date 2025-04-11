@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../css/header.css";
+import FancyText from "@carefully-coded/react-text-gradient";
 
 function Header() {
   const currentPage = useLocation().pathname;
@@ -26,19 +27,28 @@ function Header() {
 
   return (
     <container>
-      <header className="header d-flex flex-wrap justify-content-between  pb-2 pt-4 border-bottom bg-primary">
+      <header className="header d-flex flex-wrap justify-content-between pb-2 pt-4 border-bottom ">
         {/* Logo - Left aligned on desktop/tablet, centered on mobile */}
-        <Link
-          to="/"
-          className={`d-flex align-items-center mb-3 link-body-emphasis text-decoration-none text-white ${
-            isMobile ? "mx-auto justify-content-center" : "ms-5"
-          }`}
-        >
-          {/* <svg width="40" height="32"></svg> */}
-          <span className="fs-4">Navarre</span>
-        </Link>
 
-        {/* Hamburger button - always right aligned */}
+        <FancyText
+          gradient={{
+            from: "#FC2D00",
+            to: "#C247FF",
+            type: "linear",
+          }}
+          animateTo={{ from: "#0063FC", to: "#229954" }}
+          duration={2000}
+        >
+          <Link
+            to="/"
+            className={`d-flex align-items-center mb-3 link-secondary text-decoration-none text-white ${
+              isMobile ? "mx-auto justify-content-center" : "ms-5"
+            }`}
+          >
+            <span className="fs-4 fw-bold">Navarre</span>
+          </Link>
+        </FancyText>
+
         <button
           className="navbar-toggler d-lg-none pe-5 me-3 position-absolute top-1 end-0"
           type="button"
@@ -69,7 +79,7 @@ function Header() {
           <li className="nav-item">
             <Link
               to="/"
-              className="nav-link link-body-emphasis text-decoration-none text-white"
+              className="nav-link link-secondary text-decoration-none text-white"
             >
               Home
             </Link>
@@ -77,7 +87,7 @@ function Header() {
           <li className="nav-item">
             <Link
               to="/about"
-              className="nav-link link-body-emphasis text-decoration-none text-white"
+              className="nav-link link-secondary text-decoration-none text-white"
             >
               About
             </Link>
@@ -86,7 +96,7 @@ function Header() {
           <li className="nav-item">
             <Link
               to="/project"
-              className="nav-link link-body-emphasis text-decoration-none text-white"
+              className="nav-link link-secondary text-decoration-none text-white"
             >
               Projects
             </Link>
@@ -94,7 +104,7 @@ function Header() {
           <li className="nav-item">
             <Link
               to="/contact"
-              className="nav-link link-body-emphasis text-decoration-none text-white"
+              className="nav-link link-secondary text-decoration-none text-white"
             >
               Contact
             </Link>
@@ -112,7 +122,7 @@ function Header() {
             <li className="nav-item">
               <Link
                 to="/"
-                className="nav-link link-body-emphasis text-decoration-none text-white"
+                className="nav-link link-secondary text-decoration-none text-white"
                 onClick={() => setIsOpen(false)}
               >
                 Home
@@ -121,7 +131,7 @@ function Header() {
             <li className="nav-item">
               <Link
                 to="/about"
-                className="nav-link link-body-emphasis text-decoration-none text-white"
+                className="nav-link link-secondary text-decoration-none text-white"
                 onClick={() => setIsOpen(false)}
               >
                 About
@@ -129,8 +139,8 @@ function Header() {
             </li>
             <li className="nav-item">
               <Link
-                to="/portfolio"
-                className="nav-link link-body-emphasis text-decoration-none text-white"
+                to="/project"
+                className="nav-link link-secondary text-decoration-none text-white"
                 onClick={() => setIsOpen(false)}
               >
                 Project
@@ -139,7 +149,7 @@ function Header() {
             <li className="nav-item">
               <Link
                 to="/contact"
-                className="nav-link link-body-emphasis text-decoration-none text-white"
+                className="nav-link link-secondary text-decoration-none text-white"
                 onClick={() => setIsOpen(false)}
               >
                 Contact

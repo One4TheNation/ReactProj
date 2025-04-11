@@ -6,6 +6,11 @@ body {
   border: rgba(0, 0, 0, 0);
 }
 
+.iconLogo {
+  color: ghostwhite;
+  filter: invert(100%);
+}
+
 .backgroundpics {
   opacity: 0.75;
   filter: blur(10px);
@@ -82,4 +87,100 @@ p {
   margin-left: auto !important;
   margin-right: auto !important;
   width: 75%;
+}
+
+.scfst {
+  font-size: small;
+}
+
+.btn5 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #000000;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn5:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #168d26,
+    #002bff,
+    #3e79f7,
+    #c247ff,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-btn5 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-btn5 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.btn5:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #1d1615;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.brder {
+  border: 1px solid #e7e7e7;
+  border-width: 1.5px;
+  border-radius: 10px;
+}
+
+.image-container {
+  width: 200px;
+  height: 250px;
+  overflow: hidden; /* Ensures the image doesn't overflow the container */
+  position: relative;
+}
+
+.fluid-image {
+  width: auto;
+  height: auto; /* Maintains the aspect ratio */
+  max-width: 200%; /* Ensures the image doesn't exceed the container width */
+  max-height: 200%; /* Ensures the image doesn't exceed the container height */
+  object-fit: cover; /* This will scale the image to cover the entire box while maintaining its aspect ratio */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* This centers the image within the box */
 }

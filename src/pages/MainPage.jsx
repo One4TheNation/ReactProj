@@ -12,6 +12,8 @@ import {
   CardText,
 } from "reactstrap";
 
+import nnLogo from "../image/NNLogo1.png";
+
 console.log(knox);
 
 function MainPage(props) {
@@ -29,6 +31,7 @@ function MainPage(props) {
         </video>
 
         <div className="overlay-content position-relative z-1 d-flex flex-column align-items-center justify-content-center text-center h-100 px-3">
+          <img src={nnLogo} width="auto" height="150" className="iconLogo" />
           <h3 className="display-6 fw-semibold text-white  mb-2">
             Welcome to My Portfolio
           </h3>
@@ -37,14 +40,10 @@ function MainPage(props) {
           </h1>
           <Row className="justify-content-center w-100">
             <Col xs={12} md={8} lg={6}>
-              <Button
-                color="primary"
-                size="lg"
-                className="me-3 mb-3 mx-3 mb-md-0"
-              >
+              <Button size="lg" className=" btn5 | me-3 mb-3 mx-3 mb-md-0">
                 <Link
                   to="/about"
-                  className="fs-4 text-white link-body-emphasis text-decoration-none"
+                  className="fs-5 text-white link-warning text-decoration-none"
                 >
                   Enter
                 </Link>

@@ -17,7 +17,7 @@ import ccLogo from "../image/png/cc.png";
 import figmaLogo from "../image/png/figma.png";
 import tsuLogo from "../image/png/tsu.png";
 import vandyLogo from "../image/vandy.jpg";
-// import depaulLogo from "../image/png/depaul.png";
+import depaulLogo from "../image/png/depaul.png";
 import meImage from "../image/me1.jpeg";
 
 function AboutPage(props) {
@@ -74,11 +74,10 @@ function AboutPage(props) {
                 boundaries of what's possible.
               </p>
               <p className="lead">
-                Beyond my primary work, I find immense fulfillment in creative
-                expression through printmaking, the meditative rhythm of
-                woodcarving, and the soothing, nature-inspired strokes of
-                painting—channeling the spirit of Bob Ross with every
-                brushstroke.
+                Beyond my primary work, I find joy in expanding my creativity
+                through printmaking, the meditative rhythm of woodcarving, and
+                the soothing, nature-inspired strokes of painting, channeling my
+                inner Bob Ross with every brushstroke.
               </p>
             </div>
             <div className="col-md-4 d-flex justify-content-center align-items-start">
@@ -112,45 +111,60 @@ function AboutPage(props) {
                   <div className="col-lg-4 mx-auto">
                     <img
                       className="bd-placeholder-img mx-auto rounded-square px-4 pb-1"
-                      width="275"
-                      height="75"
+                      width="290"
+                      height="auto"
                       src={tsuLogo}
                       role="img"
                       // aria-label="Placeholder"
                       // preserveAspectRatio="xMidYMid slice"
                       // focusable="false"
                     />
-                    <h4 className="fw-normal pt-4">Bachelors of Science</h4>
-                    <p>Graphic Design & Art Education</p>
+                    <h4 className="fw-medium pt-4">Bachelors of Science</h4>
+                    <p className="text-body-secondary mb-1">
+                      Graphic Design & Art Education
+                    </p>
+                    <p className="scfst | fst-italic mb-5">
+                      Graduated - May 2012
+                    </p>
                   </div>
                   <div className="col-lg-4 mx-auto">
                     <img
                       className="bd-placeholder-img mx-auto rounded-square px-48 pb-1"
-                      width="280"
-                      height="90"
+                      width="250"
+                      height="auto"
                       src={vandyLogo}
                       role="img"
                       // aria-label="Placeholder"
                       // preserveAspectRatio="xMidYMid slice"
                       // focusable="false"
                     />
-                    <h4 className="fw-normal pt-2">Certification of Coding</h4>
-                    <p>Full-stack Coding and Development</p>
+                    <h4 className="fw-medium pt-2">Certification of Coding</h4>
+                    <p className="text-body-secondary mb-1">
+                      Full-stack Coding and Development
+                    </p>
+                    <p className="scfst | fst-italic mb-5">
+                      Completed - October 2024
+                    </p>
                   </div>
-                  {/* <div className="col-lg-4 mx-auto">
+                  <div className="col-lg-4 mx-auto">
                     <img
                       className="bd-placeholder-img mx-auto rounded-square px-4 pb-1"
-                      width="280"
-                      height="90"
+                      width="290"
+                      height="auto"
                       src={depaulLogo}
                       role="img"
                       // aria-label="Placeholder"
                       // preserveAspectRatio="xMidYMid slice"
                       // focusable="false"
                     />
-                    <h4 className="fw-normal pt-2">Masters of Science</h4>
-                    <p>(HCI) Human–computer Interaction</p>
-                  </div> */}
+                    <h4 className="fw-medium pt-2">Masters of Science</h4>
+                    <p className="text-body-secondary mb-1">
+                      (HCI) Human–computer Interaction
+                    </p>
+                    <p className="scfst | fst-italic mb-5">
+                      Expected Start - Fall 2025
+                    </p>
+                  </div>
                 </div>
               </div>
             </Col>
@@ -174,8 +188,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={vscLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="bootstrap logo"
                       />
                     </CardBody>
@@ -187,8 +201,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={ccLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="tailwindcss logo"
                       />
                     </CardBody>
@@ -200,8 +214,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={figmaLogo}
-                        width="55"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="handlebars logo"
                       />
                     </CardBody>
@@ -213,8 +227,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={htmlLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="html logo"
                       />
                     </CardBody>
@@ -226,8 +240,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={cssLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="css logo"
                       />
                     </CardBody>
@@ -239,8 +253,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={javascriptLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="javascript logo"
                       />
                     </CardBody>
@@ -252,8 +266,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={cplusLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="cplus logo"
                       />
                     </CardBody>
@@ -265,8 +279,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={csharpLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="csharp logo"
                       />
                     </CardBody>
@@ -278,8 +292,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={sqlLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="sql logo"
                       />
                     </CardBody>
@@ -291,8 +305,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={nodejsLogo}
-                        width="45"
-                        height="auto"
+                        width="auto"
+                        height="45"
                         alt="nodejs logo"
                       />
                     </CardBody>
@@ -304,8 +318,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={BootstrapLogo}
-                        width="55"
-                        height="auto"
+                        width="auto"
+                        height="40"
                         alt="mongo logo"
                       />
                     </CardBody>
@@ -317,8 +331,8 @@ function AboutPage(props) {
                       <img
                         className="d-block mx-auto mb-4"
                         src={tailwindcssLogo}
-                        width="55"
-                        height="auto"
+                        width="auto"
+                        height="40"
                         alt="python logo"
                       />
                     </CardBody>

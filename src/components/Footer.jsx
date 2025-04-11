@@ -3,6 +3,7 @@ import "../css/footer.css";
 import inLogo from "../image/png/linkedin.png";
 import gitLogo from "../image/png/github.png";
 import beLogo from "../image/png/behance.png";
+import nnLogo from "../image/NNLogo1.png";
 
 function Footer() {
   const currentPage = useLocation().pathname;
@@ -10,7 +11,14 @@ function Footer() {
   return (
     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
       <span className="px-5 mb-1 mb-md-0 text-body-secondary">
-        © 2025 Phillip Navarre |{" "}
+        © 2025{" "}
+        <img
+          className="mx-1 align-items-center"
+          src={nnLogo}
+          width="auto"
+          height="40"
+        />{" "}
+        Phillip Navarre |{" "}
         <Link
           to="https://etafourteen.webflow.io/"
           target="_blank"
